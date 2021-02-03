@@ -3,27 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> HTML SAMPLE</title>
+    <title>Online shop</title>
 </head>
 <body>
-    <header>
+    <header id="home">
         <nav>
             <div>Stickerz</div>
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li>
-                    <a href="#">Products</a>
+                    <a href="#products">Products</a>
                 </li>
                 <li>
-                    <a href="#">Contacts</a>
+                    <a href="#contacts">Contacts</a>
                 </li>
                 <li>
-                    <a href="#">Card</a>
+                    <a href="cart.html">Card</a>
                 </li>
             </ul>
         </nav>
+        <div class="banner">
+            <h1>Stickers</h1>
+            <button>Shop now</button>
+        </div>
     </header>
+    <main id="products">
+        <h2>Products</h2>
+        <div>
+            <div class="product-list">
+                <article>
+                    <h3>Baby Yoda</h3>
+                    <img src="img/baby-yoda.svg" alt="Baby Yoda">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus amet facilis? Molestiae id inventore voluptatibus iste ab repudiandae, dolorem laudantium quidem, voluptate blanditiis ipsa animi accusamus quam rerum error.</p>
+                    <div class="buttons">
+                        <button>Info</button>
+                        <button>Shop now</button>
+                    </div>
+                </article>
+                <article>
+                    <h3>Banana</h3>
+                    <img src="img/banana.svg" alt="Banana">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus amet facilis? Molestiae id inventore voluptatibus iste ab repudiandae, dolorem laudantium quidem, voluptate blanditiis ipsa animi accusamus quam rerum error.</p>
+                    <div class="buttons">
+                        <button>Info</button>
+                        <button>Shop now</button>
+                    </div>
+                </article>
+                <article>
+                    <h3>Girl</h3>
+                    <img src="img/girl.svg" alt="Girl>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus amet facilis? Molestiae id inventore voluptatibus iste ab repudiandae, dolorem laudantium quidem, voluptate blanditiis ipsa animi accusamus quam rerum error.</p>
+                    <div class="buttons">
+                        <button>Info</button>
+                        <button>Shop now</button>
+                    </div>
+                </article>
+                <article>
+                    <h3>Viking</h3>
+                    <img src="img/viking.svg" alt="Viking">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus amet facilis? Molestiae id inventore voluptatibus iste ab repudiandae, dolorem laudantium quidem, voluptate blanditiis ipsa animi accusamus quam rerum error.</p>
+                    <div class="buttons">
+                        <button>Info</button>
+                        <button>Shop now</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2 id="contacts">Contacts</h2>
+        <form>
+            <label>
+                Your name: <input type="text" name="name" placeholder="name" required>
+            </label>
+            <label>
+                Your email: <input type="email" name="email" placeholder="email" required>
+            </label>
+            <label>
+                Your message: <textarea name="message" placeholder="Message"></textarea>
+            </label>
+            <input type="submit">
+        </form>
+    </footer>
 </body>
 </html>
