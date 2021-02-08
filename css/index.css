@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+:root{
+    font-family: 'Libre Baskerville', serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    max-width: 980px;
+    margin: auto;
+}
+
+.logo{
+    color: red;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
